@@ -14,13 +14,15 @@
                 <v-col cols="12" md="4">
                   <v-avatar
                     class="ma-5 imgCard"
+                    data-aos="zoom-in"
                   >
                     <v-img src="../assets/raul_f.png"></v-img>
                   </v-avatar>
                 </v-col>
                 <v-col cols="12" md="4">
-                  <v-card-title class="text-h3">Raul Fernandez</v-card-title>
+                  <v-card-title class="text-h3">Raúl Fernández</v-card-title>
                   <br>
+                  <v-card-subtitle class="colorGreen text-h5">645770076</v-card-subtitle>
                   <v-card-subtitle class="text-h5">raulfdez30@hotmail.com</v-card-subtitle>
                   <v-card-subtitle class="colorGreen text-h5">Terrassa - Barcelona</v-card-subtitle>
                 </v-col>
@@ -119,6 +121,7 @@
           sm="6" 
         >
           <v-card
+            data-aos="flip-up"
             class="text-center cardMetods"          
             dark
             :color="item.color"

@@ -23,7 +23,7 @@
               dense
             >
               <v-timeline-item class="itemExperience" color="#25CA7F">
-                <v-card class="elevation-2">
+                <v-card data-aos="fade-down-right" class="elevation-2">
                   <v-card-title class="text-h5">
                     Desarrollador Front-end Developer Vue.Js
                   </v-card-title>
@@ -39,7 +39,7 @@
                 </v-card>
               </v-timeline-item>
               <v-timeline-item class="itemExperience" color="#25CA7F">
-                <v-card class="elevation-2">
+                <v-card data-aos="fade-right" class="elevation-2">
                   <v-card-title class="text-h5">
                     Desarrollador Front-end Developer
                   </v-card-title>
@@ -55,7 +55,7 @@
                 </v-card>
               </v-timeline-item>
               <v-timeline-item class="itemExperience" color="#25CA7F">
-                <v-card class="elevation-2">
+                <v-card data-aos="fade-up-right" class="elevation-2">
                   <v-card-title class="text-h5">
                     Web Development webmaster
                   </v-card-title>
@@ -90,7 +90,7 @@
               dense
             >
               <v-timeline-item class="itemExperience" color="#25CA7F">
-                <v-card class="elevation-2">
+                <v-card data-aos="fade-down-left" class="elevation-2">
                   <v-card-title class="text-h5">
                     Títulos certificaciones
                   </v-card-title>
@@ -106,7 +106,7 @@
                 </v-card>
               </v-timeline-item>
               <v-timeline-item class="itemExperience" color="#25CA7F">
-                <v-card class="elevation-2">
+                <v-card data-aos="fade-up-left" class="elevation-2">
                   <v-card-title class="text-h5">
                     Grado Desarrollo app Web
                   </v-card-title>
@@ -210,8 +210,9 @@
           <v-row>
             <v-col cols="6" class="text-center">
               <v-progress-circular
+                data-aos="flip-left"
                 :rotate="-90"
-                :size="200"
+                :size="180"
                 :width="15"
                 :value="value90"
                 color="deep-purple accent-4"
@@ -224,8 +225,9 @@
             </v-col>
             <v-col cols="6" class="text-center">
               <v-progress-circular
+                data-aos="flip-left"
                 :rotate="-90"
-                :size="200"
+                :size="180"
                 :width="15"
                 :value="value80"
                 color="indigo darken-2"
@@ -240,8 +242,9 @@
           <v-row>
             <v-col cols="6" class="text-center">
               <v-progress-circular
+                data-aos="flip-right"
                 :rotate="-90"
-                :size="200"
+                :size="180"
                 :width="15"
                 :value="value60"
                 color="amber"
@@ -254,8 +257,9 @@
             </v-col>
             <v-col cols="6" class="text-center">
               <v-progress-circular
+                data-aos="flip-right"
                 :rotate="-90"
-                :size="200"
+                :size="180"
                 :width="15"
                 :value="value90"
                 color="deep-purple accent-4"
