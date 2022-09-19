@@ -29,6 +29,7 @@
                 <v-col cols="12" class="text-center">
                   <span>Me considero una persona, ágil, dinámica, con organización y adaptación de trabajar en equipo para aportar mis conocimientos, esfuerzo y tesón a las tareas en las que participo.</span>
                   <br>
+                  <br>
                   <span>Siempre con intención de superar los retos que cada proyecto supone y con ambición de aprender y mejorar profesionalmente.</span>
                 </v-col>
                 <v-col cols="6">
