@@ -1,17 +1,22 @@
 <template>
-  <div class="box-img">
-    <v-img src="../assets/fondo.png"></v-img>
-    	<section class="intro selector">
+  <div>
+    <div class="box-img">
+      <v-img src="../assets/fondo.png" class="imgFondo"></v-img>
+      <section class="intro selector">
         <h1 class="colorWhite cd-headline rotate-1">Raúl Fernández
           <br>
-          <span data-aos="zoom-in-down" class="colorWhite">I am </span>
+          <span data-aos="zoom-in-down" class="colorWhite">I am a</span>
           <span class="cd-words-wrapper">
-            <b class="animated zoomInDown colorGreen is-visible">&nbsp;Front-end Developer</b>
-            <!-- <b class="colorGreen">Wed design</b> -->
-            <!-- <b class="colorGreen">UX designer</b> -->
+            <b class="animated zoomInDown colorGreen is-visible">&nbsp;Front-end</b>
+            <!-- <b class="colorGreen">sushi</b> -->
+            <!-- <b class="colorGreen">steak</b> -->
           </span>
         </h1>
       </section> <!-- cd-intro -->
+    </div>
+    <!-- <div class="box-imgFondoImg">
+      <v-img src="../assets/Raul.png" class="imgFondoImg"></v-img>
+    </div> -->
   </div>
 </template>
 
@@ -75,14 +80,31 @@
   background-attachment: fixed;
   background-size: cover;
 }
+.box-imgFondoImg {
+  position: absolute;
+  float: right;
+  width: 25%;
+  /* height: 80%; */
+  bottom: 0px;
+  right: 6%;
+}
+.imgFondoImg {
+  width: 100%;
+  z-index: 1;
+  float: right;
+}
 .intro {
   position: absolute;
   left: 45%;
   top: 45%;
+  z-index: 2;
 }
 @media (max-width: 600px) {
   .intro {
-    left: 35%;
+    left: 15%;
+  }
+  .box-imgFondoImg  {
+    width: 30%;
   }
 }
 .colorWhite {

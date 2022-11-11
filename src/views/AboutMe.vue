@@ -19,16 +19,20 @@
                     <v-img src="../assets/raul_f.png"></v-img>
                   </v-avatar>
                 </v-col>
-                <v-col cols="12" md="4">
-                  <v-card-title class="text-h3">Raúl Fernández</v-card-title>
-                  <br>
-                  <v-card-subtitle class="colorGreen text-h5">645770076</v-card-subtitle>
-                  <v-card-subtitle class="text-h5">raulfdez30@hotmail.com</v-card-subtitle>
-                  <v-card-subtitle class="colorGreen text-h5">Terrassa - Barcelona</v-card-subtitle>
+                <v-col cols="12" md="8">
+                  <div class="ml-6">
+                    <v-card-title class="text-h4">Raúl Fernández</v-card-title>
+                    <br>
+                    <v-card-subtitle class="colorGreen text-h5">645770076</v-card-subtitle>
+                    <v-card-subtitle class="text-h5">raulfdez30@hotmail.com</v-card-subtitle>
+                    <v-card-subtitle class="colorBlue text-h5">
+                      <a class="linkLinkedin" href="https://www.linkedin.com/in/ra-fer-he" target="_blanc">Mi Linkedin</a> 
+                    </v-card-subtitle>
+                    <v-card-subtitle class="colorGreen text-h5">Terrassa - Barcelona</v-card-subtitle>
+                  </div>
                 </v-col>
                 <v-col cols="12" class="text-center">
                   <span>Me considero una persona, ágil, dinámica, con organización y adaptación de trabajar en equipo para aportar mis conocimientos, esfuerzo y tesón a las tareas en las que participo.</span>
-                  <br>
                   <br>
                   <span>Siempre con intención de superar los retos que cada proyecto supone y con ambición de aprender y mejorar profesionalmente.</span>
                 </v-col>
@@ -45,7 +49,7 @@
                         <v-icon color="#fff">mdi-account</v-icon>
                       </v-btn>
                       <div class="mt-4 ml-3 d-flex flex-column">
-                        <span>4 Años desarrollador</span> 
+                        <span>5 Años desarrollador</span> 
                         <span class="colorGreen">Experiencia</span>
                       </div> 
                     </div>
@@ -254,6 +258,12 @@
 }
 .colorGreen {
   color: #25CA7F;
+}
+.colorBlue {
+  color: #258dca;
+}
+.linkLinkedin {
+  text-decoration: none;
 }
 .imgCard {
   width: 300px !important;

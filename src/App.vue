@@ -2,7 +2,10 @@
   <v-app>
      <b-navbar toggleable="sm" type="dark" variant="dark" class="barraNav">
       <b-container>
-        <b-navbar-brand :to="{name:'Home'}"><img class="imgLogo" src="./assets/myAvatar.png"></b-navbar-brand>
+        <b-navbar-brand :to="{name:'Home'}">
+          <!-- <img class="imgLogo" src="./assets/myAvatar.png"> -->
+          <span class="title_CV">RF</span>
+        </b-navbar-brand>
         <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
         <b-collapse id="nav-collapse" is-nav>
           <b-navbar-nav class="text-center">
@@ -44,6 +47,11 @@ export default {
   }
   .imgLogo:hover {
     transform: scale(1.05);
+  }
+  .title_CV {
+    color: #24C97E;
+    font-size: 32px;
+    font-weight: 600;
   }
   .nav-link {
     transition: all .5s linear;
