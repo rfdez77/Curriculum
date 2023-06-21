@@ -49,7 +49,7 @@
                         <v-icon color="#fff">mdi-account</v-icon>
                       </v-btn>
                       <div class="mt-4 ml-3 d-flex flex-column">
-                        <span>5 Años desarrollador</span> 
+                        <span>6 Años desarrollador</span> 
                         <span class="colorGreen">Experiencia</span>
                       </div> 
                     </div>

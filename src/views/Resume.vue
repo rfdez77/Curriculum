@@ -25,16 +25,30 @@
             <v-timeline-item class="itemExperience" color="#25CA7F">
                 <v-card data-aos="fade-down-right" class="elevation-2">
                   <v-card-title class="text-h5">
-                    Front-end Developer 
+                    Front-end Developer Vue.js
                   </v-card-title>
                   <v-card-subtitle>
                     <span class="colorGreen">
                       <v-icon color="#25CA7F" small>mdi-calendar-month</v-icon>
-                      &nbsp; 2022 - Actualidad | Quental
+                      &nbsp; 2022 | Quental
                     </span>
                   </v-card-subtitle>
                   <v-card-text>
-                   Front-end Desarrollador de proyectos ClimateTrade
+                   Front-end Desarrollador de proyectos aplicaciones internas
+                  </v-card-text>
+                </v-card>
+                <v-card data-aos="fade-down-right" class="elevation-2">
+                  <v-card-title class="text-h5">
+                    Front-end Developer Vue.js
+                  </v-card-title>
+                  <v-card-subtitle>
+                    <span class="colorGreen">
+                      <v-icon color="#25CA7F" small>mdi-calendar-month</v-icon>
+                      &nbsp; 2022 | Quental
+                    </span>
+                  </v-card-subtitle>
+                  <v-card-text>
+                   Front-end Desarrollador de proyectos y mantenimiento web
                   </v-card-text>
                 </v-card>
               </v-timeline-item>
