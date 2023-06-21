@@ -30,13 +30,15 @@
                   <v-card-subtitle>
                     <span class="colorGreen">
                       <v-icon color="#25CA7F" small>mdi-calendar-month</v-icon>
-                      &nbsp; 2022 | Quental
+                      &nbsp; 2022 - 2023 | Capgemini
                     </span>
                   </v-card-subtitle>
                   <v-card-text>
                    Front-end Desarrollador de proyectos aplicaciones internas
                   </v-card-text>
                 </v-card>
+              </v-timeline-item>
+              <v-timeline-item class="itemExperience" color="#25CA7F">
                 <v-card data-aos="fade-down-right" class="elevation-2">
                   <v-card-title class="text-h5">
                     Front-end Developer Vue.js
@@ -87,7 +89,7 @@
               <v-timeline-item class="itemExperience" color="#25CA7F">
                 <v-card data-aos="fade-up-right" class="elevation-2">
                   <v-card-title class="text-h5">
-                    Web Development webmaster
+                    Web Development Web Master
                   </v-card-title>
                   <v-card-subtitle>
                     <span class="colorGreen">
@@ -131,7 +133,8 @@
                     </span>
                   </v-card-subtitle>
                   <v-card-text>
-                    Desarrollo web, contenido digital/multimedia y recursos informáticos. Vue.Js, Angular.Js, Webpack, Git-Hub, EcmaScrip6, Material design, Vuetify, Boostrap, Metodologias agiles.
+                    <p>Desarrollo web, contenido digital/multimedia y recursos informáticos. Vue.Js, Angular.Js, Webpack, Git-Hub, EcmaScript6, Material design, Vuetify, Boostrap, Metodologias agiles.</p>
+                    <p>Gestión de proyectos, Scrum Master</p>
                   </v-card-text>
                 </v-card>
               </v-timeline-item>
@@ -264,7 +267,7 @@
               >
                 <span class="colorWhite d-flex flex-column">
                 <b>{{ value80 }}%</b>
-                <b>JQuery</b>
+                <b>Scrum</b>
                 </span>
               </v-progress-circular>
             </v-col>
@@ -355,8 +358,14 @@
 .itemExperience:hover {
   transform: scale(1.02);
 }
+.itemExperience .v-card {
+  margin-left: -1rem;
+}
 .contentHability {
   background: #1E1E1E;
+}
+.text-h5 {
+ font-size: 1.3rem !important;
 }
 </style>
 

@@ -5,7 +5,7 @@
       <section class="intro selector">
         <h1 class="colorWhite cd-headline rotate-1">Raúl Fernández
           <br>
-          <span data-aos="zoom-in-down" class="colorWhite">I am a</span>
+          <span data-aos="zoom-in-down" class="colorWhite">I am </span>
           <span class="cd-words-wrapper">
             <b class="animated zoomInDown colorGreen is-visible">&nbsp;Front-end</b>
             <!-- <b class="colorGreen">sushi</b> -->
