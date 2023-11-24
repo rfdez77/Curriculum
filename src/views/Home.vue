@@ -74,7 +74,7 @@
   height: inherit !important;
   background-size: cover;
   top: 4rem;
-  width: 100vw;
+  width: 100vw !important;
 }
 .box-img img {
   background-position: center center;
