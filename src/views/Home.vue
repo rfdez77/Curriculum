@@ -72,13 +72,14 @@
 .box-img .v-responsive {
   position: fixed !important;
   height: inherit !important;
+  background-size: cover;
   top: 4rem;
+  width: 100vw;
 }
 .box-img img {
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: cover;
 }
 .box-imgFondoImg {
   position: absolute;
