@@ -1,5 +1,11 @@
 # prova
 
+## Url Curriculum
+```
+Acceder al curriculum
+https://curriculum-raul.web.app/#/
+```
+
 ## Project setup
 ```
 npm install
